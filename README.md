@@ -10,7 +10,7 @@ Download this project as a .zip file and add the Arduino IDE under `Sketch->Incl
 
 ## Authors
 
-Aldemir Rodrigues \<arldemir.silva@icomp.ufam.br>  
-Bruna Mariana \<bruna.mariana@icomp.ufam.br>  
-Igor Carvalho \<igor.carvalho@icomp.ufam.br>  
-Thayná Rosa \<thayna.rosa@icomp.ufam.br>  
+Aldemir Rodrigues \<arldemir.silva@icomp.ufam.edu.br>  
+Bruna Mariana \<bruna.mariana@icomp.ufam.edu.br>  
+Igor Carvalho \<igor.carvalho@icomp.ufam.edu.br>  
+Thayná Rosa \<thayna.rosa@icomp.ufam.edu.br>  
