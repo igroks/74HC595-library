@@ -17,6 +17,7 @@ class TM74HC595Display
 	void digit4(int n);
 	void digit4showZero(int n);
 	void digit2(int n, int port);
+	void digit(int port, unsigned char X);
 	void set(unsigned char X, int port );
 	void clearAll();
 	void clear(int port);

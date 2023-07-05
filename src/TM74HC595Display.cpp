@@ -147,6 +147,10 @@ void TM74HC595Display::digit2(int n, int port)
 
 }
 
+void TM74HC595Display::digit(int port, unsigned char X){
+	_DATA[port] = X;
+}
+
 void TM74HC595Display::set(unsigned char X, int port ){
 	_DATA[port] = X;
 }
