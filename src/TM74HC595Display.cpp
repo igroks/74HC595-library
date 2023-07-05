@@ -151,11 +151,15 @@ void TM74HC595Display::set(unsigned char X, int port ){
 	_DATA[port] = X;
 }
 
-void TM74HC595Display::clear(){
+void TM74HC595Display::clearAll(){
   _DATA[0]= 0xFF;
   _DATA[1]= 0xFF;
   _DATA[2]= 0xFF;
   _DATA[3]= 0xFF;
+}
+
+void TM74HC595Display::clear(int port){
+  _DATA[port]= 0xFF;
 }
 
 void TM74HC595Display::int_dot(int n, int pos) {

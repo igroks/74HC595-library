@@ -18,7 +18,8 @@ class TM74HC595Display
 	void digit4showZero(int n);
 	void digit2(int n, int port);
 	void set(unsigned char X, int port );
-	void clear();
+	void clearAll();
+	void clear(int port);
 	
 	void float_dot(float value, int pos); // вывод числа value с точкой СПРАВА по счёту pos
 	void int_dot(int n, int pos); // вывод числа n с точкой СПРАВА по счёту pos
