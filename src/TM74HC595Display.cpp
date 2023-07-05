@@ -60,7 +60,7 @@ TM74HC595Display::TM74HC595Display(int SCLK, int RCLK, int DIO)
   _LED_0F[37] = 0x91; //Y
   _LED_0F[38] = 0xFE; //hight -
   
-	clear();
+	clearAll();
 }
 
 void TM74HC595Display::timerIsr()
